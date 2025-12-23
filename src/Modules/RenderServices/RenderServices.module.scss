@@ -1,0 +1,14 @@
+@use "/src/scss/fonts/Roboto";
+
+.block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  text-align: center;
+  color: #8106c1;
+  @include Roboto.setFont(32px, 700)
+}

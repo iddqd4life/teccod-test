@@ -1,0 +1,22 @@
+@use "/src/scss/fonts/Roboto";
+
+.button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: rgb(160, 83, 243);
+  color: #fff;
+  border: none;
+  outline: none;
+  transition: transform 0.2s ease-in-out;
+  @include Roboto.setFont(16px, 400);
+
+  @media screen and (min-width: 1200px) {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}

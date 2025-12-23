@@ -1,0 +1,11 @@
+.list {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px;
+  border: 2px solid #d0a3ff;
+  background-color: rgba(208, 163, 255, 0.2);
+  border-radius: 16px;
+}

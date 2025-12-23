@@ -1,0 +1,11 @@
+.list {
+  width: 100%;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
+  padding: 16px;
+  border: 2px solid #af035d;
+  background-color: rgba(250, 151, 165, 0.2);
+  border-radius: 16px;
+}

@@ -1,0 +1,22 @@
+@use "/src/scss/fonts/Roboto";
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  @include Roboto.setFont(24px, 700);
+  color: rgba(45, 45, 45, 1);
+}
+
+.description {
+  @include Roboto.setFont(12px, 400);
+  color: rgba(45, 45, 45, 0.5);
+}
+
+.price {
+  @include Roboto.setFont(16px, 700);
+  color: rgb(211, 0, 122);
+}
